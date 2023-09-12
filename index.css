@@ -64,7 +64,7 @@ h1 {
 
 .card-img {
   width: 100%;
-  transform: translateY(20%) scale(1.7);
+  transform: translate(-3%, 30%) scale(1.8);
 }
 
 .about {
@@ -81,8 +81,10 @@ ul {
 }
 
 li {
+  color: #000;
   cursor: pointer;
   display: flex;
+  gap: 10px;
   align-items: center;
   background-color: #e6e6e170;
   border-radius: 6px;
@@ -90,16 +92,13 @@ li {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-li:hover {
+li:hover,
+li:active {
   text-decoration: underline;
   color: #5a5844;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.01);
 }
 
 a {
-  display: flex;
   text-decoration: none;
-  align-items: center;
-  gap: 10px;
-  color: #000;
 }
