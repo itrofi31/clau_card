@@ -23,15 +23,11 @@ body {
 }
 
 .bg {
-  background-color: #9e9d7f;
-  min-height: 250px;
-  margin-bottom: -10px;
   background-position: center;
   background-size: cover;
   filter: contrast(0.5);
 
   display: grid;
-  grid-template-columns: (1fr);
 }
 .bg img {
   width: 100%;
